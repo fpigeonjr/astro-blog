@@ -1,4 +1,3 @@
-
 ---
 title: "Habits for 2019"
 description: "These are my habits-not goals-for 2019."
