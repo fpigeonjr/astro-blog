@@ -1,5 +1,7 @@
 # Astro Starter Kit: Blog
 
+[![Deployed on Cloudflare Pages](https://img.shields.io/badge/Deployed%20on-Cloudflare%20Pages-f38020?logo=cloudflare&logoColor=white)](https://frankpigeon.com)
+
 ```sh
 npm create astro@latest -- --template blog
 ```
