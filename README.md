@@ -59,6 +59,20 @@ All commands are run from the root of the project, from a terminal:
 
 Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
 
+## Image Dimensions
+
+For optimal display and performance, use these recommended image dimensions:
+
+| Image Type | Dimensions | Aspect Ratio | Usage |
+|------------|------------|--------------|--------|
+| Blog header images (hero) | 960×480px | 2:1 | Individual blog post headers |
+| Blog list thumbnails | 960×480px | 2:1 | Blog listing page thumbnails |
+| Page content width | 960px max | - | Main content container |
+
+*Note: These dimensions match the blog-placeholder images included with the template. The Astro Image component will automatically resize and optimize images as needed.*
+
+Images should be placed in `src/assets/` for optimization or `public/` for direct serving without processing.
+
 ## Credit
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
