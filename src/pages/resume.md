@@ -18,13 +18,9 @@ Accomplished Senior Front End Engineer with over 10 years of experience in desig
  11/2021 - Present
 
 
-- Lead project deliverable and research activities (e.g., workflows, information architecture, sketching, mockups, prototypes, design patterns, microcopy, interaction design, usability testing) to understand requirements, goals, and constraints, generating insights that shape the UX strategy and design decisions.
-- Work with designers on other product teams to help ensure user interaction and design consistency across the program
-- Advocate for the users while balancing business needs/goals throughout the project
-- Effectively communicate goals, designs, research, feedback, ideas, and requirements (both verbally and visually, when needed) to the team and stakeholders
-- Pair and mob with UX designers, researchers and strategists to collaboratively develop and refine designs, while providing feedback on proposed technical solutions that affect the user experience
-- Prototype, test, and iterate on designs
-- Facilitate collaborative client discovery and design workshops
+- Lead UX research activities including workflows, information architecture, mockups, prototypes, and usability testing to shape design strategy and decisions
+- Collaborate with cross-functional teams to ensure user interaction consistency across products while balancing business needs and user advocacy
+- Facilitate client discovery workshops and effectively communicate design concepts, research findings, and requirements to stakeholders
 
 
 
@@ -32,32 +28,31 @@ Accomplished Senior Front End Engineer with over 10 years of experience in desig
 
  06/2015 - 11/2021
 
-- Design, develop, and maintain public facing and internal websites and applications
-- Lead adoption of modern web practices, version control, design guidelines, agile methodologies, and continuous integration/continuous deployment
-- Proficient with HTML, CSS, JavaScript, React, Gatsby, Bootstrap, USWDS, and the Adobe Creative Cloud
+- Design, develop, and maintain public facing and internal websites and applications for military medical education
+- Lead adoption of modern web practices including version control, design guidelines, agile methodologies, and CI/CD
+- Built applications using HTML, CSS, JavaScript, React, Gatsby, Bootstrap, USWDS, and Adobe Creative Cloud
 
 
 ### **Full Stack Web Developer @ [ AM Digital ](https://discoveram.com/)** 
 
- NOV 2014 - AUG 2015
+ 11/2014 - 08/2015
 
-- Full stack web development using Linux, Apache, MySQL, and PHP
-- Responsible for designing, developing, and maintaining dynamic websites and applications for churches, non-profits, and businesses
+- Developed full stack web applications using Linux, Apache, MySQL, and PHP (LAMP stack)
+- Designed and maintained dynamic websites and applications for churches, non-profits, and small businesses
 
 
 ### **Co-Founder @ sacodersunited** 
 
-OCT 2017 - NOV 2021 
+11/2017 - 11/2021 
 
-- Veteran-owned Digital Agency that provides web design, branding, and web development
+- Co-founded veteran-owned digital agency providing web design, branding, and development services
 
 
 ### **Freelance Web Developer**
 
-MAY 2014 - OCT 2017
+05/2014 - 10/2017
 
-- Owner of Pigeontec, Solopreneur Digital Agency
-- Full stack web design and development
+- Founded Pigeontec, a solopreneur digital agency specializing in full stack web design and development
 
 ### Previous Experience
 
