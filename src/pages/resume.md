@@ -18,7 +18,7 @@ Accomplished Senior Front End Engineer with over 10 years of experience in desig
  11/2021 - Present
 
 
-- Lead project deliverable and research activities (e.g., workflows, information architecture, sketching, mockups, prototypes, design patterns, microcopy, interaction design, usability testing) understand requirements, goals, and constraints, generating insights that shape the UX strategy and design decisions
+- Lead project deliverable and research activities (e.g., workflows, information architecture, sketching, mockups, prototypes, design patterns, microcopy, interaction design, usability testing) to understand requirements, goals, and constraints, generating insights that shape the UX strategy and design decisions.
 - Work with designers on other product teams to help ensure user interaction and design consistency across the program
 - Advocate for the users while balancing business needs/goals throughout the project
 - Effectively communicate goals, designs, research, feedback, ideas, and requirements (both verbally and visually, when needed) to the team and stakeholders
