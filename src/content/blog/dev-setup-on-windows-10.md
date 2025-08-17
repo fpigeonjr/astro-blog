@@ -8,7 +8,7 @@ heroImage: '../../assets/header-img.webp'
 > This is how I setup windows 10 for a modern web development using Windows Subsystem for Linux (WSL2).
 > I am coming from macOS so my goal is to get as close as my setup on my macBook Pro for web development.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/A0eqZujVfYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/A0eqZujVfYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Overview
 

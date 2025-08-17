@@ -10,7 +10,7 @@ heroImage: '../../assets/blog-placeholder-2.jpg'
 I have started reading books in 2018 and found a lost love I once had from high school. I saw a video from Dain Miller entitled **"How to Improve as a Programmer - DON'T WRITE MORE CODE, READ MORE"**.
 
 <section>
-  <iframe class="lost-center" width="560" height="315" src="https://www.youtube-nocookie.com/embed/moTlZBY66Ng?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  <iframe class="lost-center" src="https://www.youtube-nocookie.com/embed/moTlZBY66Ng?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </section>
 
 After watching this inspirational video I was motivated to start the path to reading more, sleeping more, unplugging more, and being more focused and productive.
