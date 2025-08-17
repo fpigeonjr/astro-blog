@@ -2,15 +2,15 @@
 layout: ../layouts/PageLayout.astro
 title: "About Me"
 description: "Learn a little more about me."
-pubDate: 'Aug 13 2025'
+pubDate: "Aug 13 2025"
 heroImage: ../../assets/bridge.jpg
 ---
 
 ## Thank you for visiting
 
-My name is Frank Pigeon Jr. 
+My name is Frank Pigeon Jr.
 
-I am a husband, father of three boys, bassist in the Texas rock band [ Flying Pigeons ](https://theflyingpigeons.com), avid [ book reader ](https://www.goodreads.com/user/show/77882635-frank-pigeon), and Front End Engineer & User Experience Designer. 
+I am a husband, father of three boys, bassist in the Texas rock band [ Flying Pigeons ](https://theflyingpigeons.com), avid [ book reader ](https://www.goodreads.com/user/show/77882635-frank-pigeon), and Front End Engineer & User Experience Designer.
 
 I was born in San Antonio, Texas and grew up in the beautiful country of Panama. I am a U.S. Army veteran and am proud to have served my country as Soldier and as a Department of Army Civilian. I continue to serve on [ projects ](https://github.com/fpigeonjr) that make the Government a better place.
 

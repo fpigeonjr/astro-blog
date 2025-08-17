@@ -1,8 +1,8 @@
 ---
 title: "Hackintosh Build Guide for OSX Catalina"
 description: "Hackintosh Guide for Catalina on my 2014 custom built PC"
-pubDate: 'Nov 11 2019'
-heroImage: '../../assets/mac.jpg'
+pubDate: "Nov 11 2019"
+heroImage: "../../assets/mac.jpg"
 ---
 
 > tldr; Hackintosh Guide for Catalina on my 2014 custom built PC
@@ -26,7 +26,6 @@ Hard to believe this build was from January 2014 and is still running great.
 - 16GB 1600mhz DDR3 memory
 - Corsair CX500 Power Supply
 - (2)256 SSD and 1TB HD
-
 
 > Hackintoshes are very picky on hardware so make sure you choose wisely.<br/> [Tonymacx86 Buyers Guide][buyersguide] is a great resource to choose from guaranteed working builds.
 
@@ -67,10 +66,11 @@ sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstall
 
 - [IntelMausiEthernet](https://www.insanelymac.com/forum/files/file/396-intelmausiethernet/)
 - [Apple ALC Sound](https://github.com/acidanthera/AppleALC/releases)
-![clover](../../assets/kexts.png)
-Most of these are zip files so extract them and look for the file extension `.kext`.
+  ![clover](../../assets/kexts.png)
+  Most of these are zip files so extract them and look for the file extension `.kext`.
 
 ### USB Drive Config
+
 > Had some issues with clover on my MacBoook Pro [so I followed this guide to disable SIP](https://www.reddit.com/r/hackintosh/comments/d9pbhy/clover_cannot_install_wo_ensuring_file_system_is/)
 
 ```text
@@ -93,7 +93,7 @@ Click Restart…
 4. Select the USB Flash Drive.
    ![cloverusb](../../assets/cloverusb.png)
 5. Now on the Installation Type Tab Click on the Customize option.
-  ![clover](../../assets/clover.png)
+   ![clover](../../assets/clover.png)
    - defaults were ok in my build
 
 ### Copying Files to EFI partition on Hackintosh macOS Catalina USB Installer

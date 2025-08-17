@@ -1,8 +1,8 @@
 ---
-title: 'Goals for 2018'
-description: 'These are my goals for 2018'
-pubDate: 'Feb 21 2018'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+title: "Goals for 2018"
+description: "These are my goals for 2018"
+pubDate: "Feb 21 2018"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
 ## Intro

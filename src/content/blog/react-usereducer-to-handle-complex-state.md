@@ -1,8 +1,8 @@
 ---
 title: "useReducer to handle complex state"
 description: "Teach everyone to spread, they'll spread for a day. Teach everyone to useReducer and they'll spread for life."
-pubDate: 'Sep 09 2021'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+pubDate: "Sep 09 2021"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
 > Teach everyone to spread, they'll spread for a day. Teach everyone to useReducer and they'll spread for life.
@@ -21,17 +21,17 @@ This is an example from the book. Let's say we have a user object. We want the a
 
 ```javascript
 const firstUser = {
-  id: '1230123-123',
-  firstName: 'Bill',
-  lastName: 'Wilson',
-  city: 'Missoula',
-  state: 'Montana',
-  email: 'bwilson@mtnwilson.com',
+  id: "1230123-123",
+  firstName: "Bill",
+  lastName: "Wilson",
+  city: "Missoula",
+  state: "Montana",
+  email: "bwilson@mtnwilson.com",
   admin: false,
-}
+};
 
 function User() {
-  const [user, setUser] = React.useState(firstUser)
+  const [user, setUser] = React.useState(firstUser);
 
   return (
     <div>
@@ -42,16 +42,16 @@ function User() {
       <p>
         Location: {user.city}, {user.state}
       </p>
-      <p>Role: {user.admin ? 'admin' : 'user'}</p>
+      <p>Role: {user.admin ? "admin" : "user"}</p>
       <button
         onClick={() => {
-          setUser({ admin: true })
+          setUser({ admin: true });
         }}
       >
         Make Admin
       </button>
     </div>
-  )
+  );
 }
 ```
 

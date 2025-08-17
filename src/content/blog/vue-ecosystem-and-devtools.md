@@ -1,9 +1,8 @@
-
 ---
 title: "Vue Ecosystem and DevTools"
 description: "Vue is an amazing javascript framework to work in but how do you get started...especially coming from React?"
-pubDate: 'Feb 02 2022'
-heroImage: '../../assets/vuejs.png'
+pubDate: "Feb 02 2022"
+heroImage: "../../assets/vuejs.png"
 ---
 
 Vue is an amazing javascript framework to work in but how do you get started...especially coming from React?
