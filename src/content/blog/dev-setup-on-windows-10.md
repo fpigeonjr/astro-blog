@@ -92,7 +92,7 @@ Warning, this takes a while but will make your system even snappier.
 
 ### Package Manager
 
-![chocolatly](https://chocolatey.org/content/images/integrations-mockup.jpg)
+![chocolatey](https://chocolatey.org/assets/images/global-shared/logo-square.svg)
 
 Homebrew(Mac's package manager) alternative on Windows is called Chocolatey. So go ahead and get some `choco love`.
 
