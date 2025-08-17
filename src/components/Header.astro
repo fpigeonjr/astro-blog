@@ -1,6 +1,7 @@
 ---
 import { SITE_TITLE } from '../consts';
 import HeaderLink from './HeaderLink.astro';
+import ThemeToggle from './ThemeToggle.astro';
 ---
 
 <header>
@@ -14,6 +15,7 @@ import HeaderLink from './HeaderLink.astro';
 			<HeaderLink href="/uses">Uses</HeaderLink>
 		</div>
 		<div class="social-links">
+			<ThemeToggle />
 			<a href="https://twitter.com/fpigeonjr" target="_blank">
 				<span class="sr-only">Follow Frank on X</span>
 				<svg viewBox="0 0 16 16" aria-hidden="true" width="32" height="32" astro-icon="social/x"
@@ -47,8 +49,9 @@ import HeaderLink from './HeaderLink.astro';
 	header {
 		margin: 0;
 		padding: 0 1em;
-		background: white;
+		background: var(--bg-primary);
 		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+		transition: background-color 0.3s ease;
 	}
 	h2 {
 		margin: 0;
@@ -66,9 +69,10 @@ import HeaderLink from './HeaderLink.astro';
 	}
 	nav a {
 		padding: 1em 0.5em;
-		color: var(--black);
+		color: var(--text-primary);
 		border-bottom: 4px solid transparent;
 		text-decoration: none;
+		transition: color 0.3s ease;
 	}
 	nav a.active {
 		text-decoration: none;

@@ -30,6 +30,25 @@ const { title, description, image = FallbackImage } = Astro.props;
 />
 <meta name="generator" content={Astro.generator} />
 
+<!-- Theme script to prevent FOUC -->
+<!-- Note: Functions are duplicated here instead of importing from utils/theme.js
+     because this script must run inline and immediately to prevent FOUC -->
+<script is:inline>
+	function getThemePreference() {
+		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
+			return localStorage.getItem('theme');
+		}
+		return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+	}
+
+	function setTheme(theme) {
+		document.documentElement.setAttribute('data-theme', theme);
+	}
+
+	// Set theme immediately to prevent FOUC
+	setTheme(getThemePreference());
+</script>
+
 <!-- Font preloads -->
 <link rel="preload" href="/fonts/atkinson-regular.woff" as="font" type="font/woff" crossorigin />
 <link rel="preload" href="/fonts/atkinson-bold.woff" as="font" type="font/woff" crossorigin />
