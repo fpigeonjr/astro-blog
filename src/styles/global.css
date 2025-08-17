@@ -243,3 +243,12 @@ hr {
 	/* added line to stop words getting smushed together (as they go onto separate lines and some screen readers do not understand line feeds as a space */
 	white-space: nowrap;
 }
+
+/* Responsive iframe embeds */
+iframe[src*="youtube"], 
+iframe[src*="spotify"] {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	max-width: 560px;
+	border-radius: 8px;
+}

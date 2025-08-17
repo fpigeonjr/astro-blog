@@ -17,7 +17,7 @@ While there was so much win in 2018, this is a list of my **Top Favorite 8 Thing
 
 ### 1. Waking Up Early
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/C-Cvl3_CH2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/C-Cvl3_CH2A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I have heard that many of the most successful people in the world wake up early. The idea is that if you wake up early you can get to your most important work early when you are at your best.
 
@@ -64,7 +64,7 @@ My five habits that I am tracking are:
 
 ### 3. Keto Diet + IF(Intermittent Fasting)
 
-<iframe src="https://open.spotify.com/embed/episode/3CLIfzgplNxG5UeSHPbvkK" width="300" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe src="https://open.spotify.com/embed/episode/3CLIfzgplNxG5UeSHPbvkK" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
 In the fall, I noticed that work pace was increasing, I stopped going to the gym, and I was putting on some weight.
 
@@ -72,7 +72,7 @@ To make things worse, I was going into see my doctor in November for my biannual
 
 I heard a podcast from one of my favorite podcasts, Syntax, where both the hosts were sharing their fitness tips and diets. They were both on the Keto diet and loved it. So that peaked my curiosity then I found this video from Dr. Eric Berg.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/AnyFVWwzgJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/AnyFVWwzgJI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 I tried it and fell in love. I like meats like bacon, sausage, eggs, nuts, and salads.
 

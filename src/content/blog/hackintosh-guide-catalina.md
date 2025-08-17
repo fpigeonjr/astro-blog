@@ -32,7 +32,7 @@ Hard to believe this build was from January 2014 and is still running great.
 
 ## Step One: Make a Catalina Bootable USB (the mac approved way)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ekp8w6pel84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/ekp8w6pel84" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <figcaption>
   Great video explaining the process from Mark with Tech

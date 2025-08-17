@@ -14,7 +14,7 @@ At work I have been assigned on a Vue project and coming from React there was a 
 
 ## Vue Ecosystem from Evan You
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2KBHvaAWJOA?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/2KBHvaAWJOA?start=50" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Watching Evan's keynote will bring you up to speed on where the Vue Ecosystem is at...but it's pretty long here are my takeaways.
 
