@@ -1,8 +1,8 @@
 ---
 title: "Habits for 2019"
 description: "These are my habits-not goals-for 2019."
-pubDate: 'Jan 14 2019'
-heroImage: '../../assets/blog-placeholder-5.jpg'
+pubDate: "Jan 14 2019"
+heroImage: "../../assets/blog-placeholder-5.jpg"
 ---
 
 ## Intro

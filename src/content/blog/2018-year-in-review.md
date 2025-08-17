@@ -1,8 +1,8 @@
 ---
 title: "2018 Year In Review"
 description: "This is my review of 2018."
-pubDate: 'Jan 07 2019'
-heroImage: '../../assets/blog-placeholder-5.jpg'
+pubDate: "Jan 07 2019"
+heroImage: "../../assets/blog-placeholder-5.jpg"
 ---
 
 ## 🎉 2018! What a Year It Has Been

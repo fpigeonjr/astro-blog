@@ -1,8 +1,8 @@
 ---
 title: "WSL 2.0 on Windows 10"
 description: "How to install WSL 2 on Windows 10 and run Linux distributions"
-pubDate: 'Oct 14 2019'
-heroImage: '../../assets/header-img.webp'
+pubDate: "Oct 14 2019"
+heroImage: "../../assets/header-img.webp"
 ---
 
 ## Background
@@ -11,7 +11,7 @@ So it was a big weekend for Apple fans as Apple launched Catalina and I was exci
 
 > I was thinking why not upgrade my desktop to a Hackintosh?
 
-Not sure what I was thinking but it didn't go well for me. After tweaking BIOS,  and creating a bootable USB drive with Catalina, all I could get was a dreaded black screen with a blinking cursor.
+Not sure what I was thinking but it didn't go well for me. After tweaking BIOS, and creating a bootable USB drive with Catalina, all I could get was a dreaded black screen with a blinking cursor.
 
 > 🤷‍♂ oh the sadness
 
@@ -19,7 +19,7 @@ So I decided to give **Windows 10** a shot now that [WSL(Windows Subsystem for L
 
 ## Getting Started
 
-First off you'll need to be running *Windows 10 build 18917* or higher. At the time of this post, the only way to get there was by joining the *Windows Insider Program* and joining the **Fast Ring**.
+First off you'll need to be running _Windows 10 build 18917_ or higher. At the time of this post, the only way to get there was by joining the _Windows Insider Program_ and joining the **Fast Ring**.
 
 ![windows insider](../../assets/insider.webp)
 
@@ -29,10 +29,9 @@ You can check your Windows version by opening Command Prompt and running the `ve
 ver // Microsoft Windows [Version 10.0.18999.1]
 ```
 
+Next you'll want to enable the _'Virtual Machine Platform'_ optional component and make sure WSL is enabled.
 
-Next you'll want to enable the *'Virtual Machine Platform'* optional component and make sure WSL is enabled.
-
-Open *PowerShell as an Administrator* and run:
+Open _PowerShell as an Administrator_ and run:
 
 ```powershell
 Enable-WindowsOptionalFeature -Online -FeatureName VirtualMachinePlatform
@@ -43,7 +42,7 @@ This will cause a reboot.
 
 I wanted to make WSL 2 the default architecture so you'll want to:
 
-Open *PowerShell as an Administrator* and run:
+Open _PowerShell as an Administrator_ and run:
 
 ```powershell
 wsl --set-default-version 2

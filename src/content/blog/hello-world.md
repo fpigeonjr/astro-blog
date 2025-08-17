@@ -1,8 +1,8 @@
 ---
-title: 'Hello World'
-description: 'Lorem ipsum dolor sit amet'
-pubDate: 'Feb 24 2017'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+title: "Hello World"
+description: "Lorem ipsum dolor sit amet"
+pubDate: "Feb 24 2017"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
 ## My First Post

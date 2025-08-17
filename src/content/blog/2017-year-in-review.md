@@ -1,8 +1,8 @@
 ---
-title: '2017 Year in Review'
-description: 'This is my review of 2017'
-pubDate: 'Dec 15 2017'
-heroImage: '../../assets/blog-placeholder-2.jpg'
+title: "2017 Year in Review"
+description: "This is my review of 2017"
+pubDate: "Dec 15 2017"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
 ## Looking Back

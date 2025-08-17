@@ -1,8 +1,8 @@
 ---
 title: "Developer Setup on Windows 10"
 description: "This is how I setup windows 10 for a modern web development using Windows Subsystem for Linux (WSL2). I am coming from macOS so my goal is to get as close as my setup on my macBook Pro for web development."
-pubDate: 'Oct 21 2019'
-heroImage: '../../assets/header-img.webp'
+pubDate: "Oct 21 2019"
+heroImage: "../../assets/header-img.webp"
 ---
 
 > This is how I setup windows 10 for a modern web development using Windows Subsystem for Linux (WSL2).
@@ -192,7 +192,7 @@ I recommend pinning this directory since you will want to move project assets fr
 Microsoft updates the Insiders Build pretty frequently and with the [win10debloater script](https://github.com/Sycnex/Windows10Debloater) defaults telemetry is turned off (which is probably a good default).
 I wanted to update Windows and it wasn't seeing any updates so here is what I did to allow for updates to be installed based on this [github issue](https://github.com/Sycnex/Windows10Debloater/issues/122).
 
->Open the Start Menu. Type in `gpedit.msc` and right-click the app from the search results. Choose `Run as Administrator` from the context menu.
+> Open the Start Menu. Type in `gpedit.msc` and right-click the app from the search results. Choose `Run as Administrator` from the context menu.
 
 > In the `Group Policy Editor`, go to `Computer Configuration/Administrative Templates/Windows Components/Data Collection and Preview Builds`.
 
@@ -202,14 +202,12 @@ Now you should be able to run Microsoft Updates normally. After the updates run 
 
 > Now open the item again and change the Setting to `Not configured` and hit the Save button.
 
-
-
 ## Final Thoughts
 
 It's an exciting time to be a developer on Windows. With WSL2, you will get the great developer experience of linux and access to very popular Windows ecosystem. It's the best of both worlds.
 
 ## Resources
 
-* [Chris Titus Tech - Setting up the perfect Windows 10 Installation | Faster, Lighter, and Functional](https://youtu.be/nVy4GAtkh7Q)
-* [MS Docs for WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
-* [MS Docs for Setting up Node w/ WSL2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)
+- [Chris Titus Tech - Setting up the perfect Windows 10 Installation | Faster, Lighter, and Functional](https://youtu.be/nVy4GAtkh7Q)
+- [MS Docs for WSL2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-install)
+- [MS Docs for Setting up Node w/ WSL2](https://docs.microsoft.com/en-us/windows/nodejs/setup-on-wsl2)

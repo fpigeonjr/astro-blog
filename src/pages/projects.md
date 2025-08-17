@@ -2,14 +2,14 @@
 layout: ../layouts/PageLayout.astro
 title: "Projects"
 description: "These are some of the projects I have had the honor to work on."
-pubDate: 'Aug 16 2025'
+pubDate: "Aug 16 2025"
 heroImage: ../../assets/projects.jpg
 ---
 
 Here are some key projects I've worked on, ranging from Federal Government applications to client websites. Each project showcases different aspects
 of my Front End Development and UX design skills.
 
-##  OPRE Portfolio Management System 
+## OPRE Portfolio Management System
 
 ![ops](../assets/ops.png)
 
@@ -47,7 +47,7 @@ most.
 
 Government agencies needed visibility into the impact and adoption of the United States Web Design System across federal websites. This interactive report showcased community contributions and usage statistics to demonstrate the design system's value for the 3.3.0 release.
 
-**My Role:** UX Design and Front End Development  <br/>
+**My Role:** UX Design and Front End Development <br/>
 **Tech:** Jekyll, SASS, USWDS, Cloud.gov Pages
 
 [View Live](https://designsystem.digital.gov/together/) <br/>
@@ -173,8 +173,6 @@ Graphic artist and designer required a clean, professional portfolio website to 
 
 <hr />
 <br />
-
-
 
 [david-portillo-gh]: https://github.com/sacodersunited/portillo-tenor
 [david-portillo-live]: http://davidportillotenor.com

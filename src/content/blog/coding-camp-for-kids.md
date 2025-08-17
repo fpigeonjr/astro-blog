@@ -1,8 +1,8 @@
 ---
 title: "DIY Coding Camp for Kids"
 description: "A DIY coding camp for kids using Raspberry Pi and Scratch"
-pubDate: 'Feb 04 2019'
-heroImage: '../../assets/bg-new.jpg'
+pubDate: "Feb 04 2019"
+heroImage: "../../assets/bg-new.jpg"
 ---
 
 ## Intro

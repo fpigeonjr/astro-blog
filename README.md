@@ -63,13 +63,13 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 
 For optimal display and performance, use these recommended image dimensions:
 
-| Image Type | Dimensions | Aspect Ratio | Usage |
-|------------|------------|--------------|--------|
-| Blog header images (hero) | 960×480px | 2:1 | Individual blog post headers |
-| Blog list thumbnails | 960×480px | 2:1 | Blog listing page thumbnails |
-| Page content width | 960px max | - | Main content container |
+| Image Type                | Dimensions | Aspect Ratio | Usage                        |
+| ------------------------- | ---------- | ------------ | ---------------------------- |
+| Blog header images (hero) | 960×480px  | 2:1          | Individual blog post headers |
+| Blog list thumbnails      | 960×480px  | 2:1          | Blog listing page thumbnails |
+| Page content width        | 960px max  | -            | Main content container       |
 
-*Note: These dimensions match the blog-placeholder images included with the template. The Astro Image component will automatically resize and optimize images as needed.*
+_Note: These dimensions match the blog-placeholder images included with the template. The Astro Image component will automatically resize and optimize images as needed._
 
 Images should be placed in `src/assets/` for optimization or `public/` for direct serving without processing.
 

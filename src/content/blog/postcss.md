@@ -1,8 +1,8 @@
 ---
-title: 'PostCSS'
-description: 'adventures in postcss land'
-pubDate: 'Mar 03 2017'
-heroImage: '../../assets/blog-placeholder-3.jpg'
+title: "PostCSS"
+description: "adventures in postcss land"
+pubDate: "Mar 03 2017"
+heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
 ## Working with PostCSS
@@ -55,22 +55,22 @@ module.exports = {
       {
         test: /\.css$/,
         loaders: [
-          'style-loader',
-          'css-loader?importLoaders=1',
-          'postcss-loader',
+          "style-loader",
+          "css-loader?importLoaders=1",
+          "postcss-loader",
         ],
       },
     ],
   },
-}
+};
 ```
 
 Then create a `postcss.config.js` file which contains your plugins. In the code block below, we have added the **precss** and **autoprefixir** plugins.
 
 ```js
 module.exports = {
-  plugins: [require('precss'), require('autoprefixer')],
-}
+  plugins: [require("precss"), require("autoprefixer")],
+};
 ```
 
 ## PostCSS Plugins

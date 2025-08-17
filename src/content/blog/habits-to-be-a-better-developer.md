@@ -1,8 +1,8 @@
 ---
 title: "Habits to Be a Better Developer"
 description: "These are my habits to be a better developer and to improve my skills. Interviewed a senior developer and these are his top 7 habits to be a better developer."
-pubDate: 'Jan 28 2019'
-heroImage: '../../assets/blog-bg.jpg'
+pubDate: "Jan 28 2019"
+heroImage: "../../assets/blog-bg.jpg"
 ---
 
 ## Intro

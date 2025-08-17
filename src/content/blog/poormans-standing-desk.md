@@ -1,8 +1,8 @@
 ---
 title: "Poorman's Standing Desk"
 description: "My poorman's guide for builging a standing desk"
-pubDate: 'Dec 17 2018'
-heroImage: '../../assets/blog-placeholder-4.jpg'
+pubDate: "Dec 17 2018"
+heroImage: "../../assets/blog-placeholder-4.jpg"
 ---
 
 ## Inspiration
