@@ -31,6 +31,8 @@ const { title, description, image = FallbackImage } = Astro.props;
 <meta name="generator" content={Astro.generator} />
 
 <!-- Theme script to prevent FOUC -->
+<!-- Note: Functions are duplicated here instead of importing from utils/theme.js
+     because this script must run inline and immediately to prevent FOUC -->
 <script is:inline>
 	function getThemePreference() {
 		if (typeof localStorage !== 'undefined' && localStorage.getItem('theme')) {
