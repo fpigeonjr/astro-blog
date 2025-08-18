@@ -2,7 +2,7 @@
 title: "Top 3 Gartner Application Conference Takeaways"
 description: "I was blessed to be able to attend the Gartner Appliocation Conference. These are my top 3 Gartner Application Conference Takeaways."
 pubDate: "Dec 10 2018"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/gartner-conference.webp"
 ---
 
 ## 2018 Gartner Application Strategies and Solutions Summit

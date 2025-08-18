@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "About Me"
 description: "Learn a little more about me."
 pubDate: "Aug 13 2025"
-heroImage: ../../assets/bridge.jpg
+heroImage: ../assets/sunset.webp
 ---
 
 ## Thank you for visiting

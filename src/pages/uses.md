@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "Some of the things I use"
 description: "These are some of the tools I use everyday."
 pubDate: "Aug 14 2025"
-heroImage: ../../assets/blog-bg.jpg
+heroImage: ../assets/cozy-setup.webp
 ---
 
 ## Code Editor

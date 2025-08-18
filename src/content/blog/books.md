@@ -2,7 +2,7 @@
 title: "Books I Have Read"
 description: "A collection of book reviews I have written for the books I have read."
 pubDate: "Mar 19 2022"
-heroImage: "../../assets/books.jpg"
+heroImage: "../../assets/library.webp"
 ---
 
 My goal every year is to read one book a month. Here I will share my book reviews for the books I have completed. But here's the catch: _there will be a limitation of three sentences_.

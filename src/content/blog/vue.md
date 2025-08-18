@@ -2,7 +2,7 @@
 title: "World of Vue.js"
 description: "The World of Vue.js"
 pubDate: "Mar 12 2017"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "../../assets/corgis-in-space.webp"
 ---
 
 ## Learning Javascript in 2017
