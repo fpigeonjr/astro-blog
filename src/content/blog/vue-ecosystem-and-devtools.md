@@ -32,7 +32,7 @@ Now that you have a lay of the land in Vue it's time to learn how Vue works and 
 
 Here are some video courses I have enjoyed:
 
-![vue training](../../assets/training.png)
+![vue training](../../assets/training.webp)
 
 - [Vue 3](https://pro.academind.com/p/vue-3-the-complete-guide?ref=madewithvuejs.com) by Academind (Udemy)
 - [Nuxt.js - Vue.js on Steroids by Academind](https://www.udemy.com/course/nuxtjs-vuejs-on-steroids/) (Udemy)
@@ -52,14 +52,14 @@ Other recommendations from [Made With Vue](https://madewithvuejs.com/blog/learn-
 
    Volar provides Vue syntax highlighting, TypeScript support, and works with Vue3 and Vue2.
 
-![volar extension](../../assets/volar.png)
+![volar extension](../../assets/volar.webp)
 
 2. [Vue Snippets](https://marketplace.visualstudio.com/items?itemName=sdras.vue-vscode-snippets)
 
    Vue snippets allow you to quickly scaffold out a Vue single file template and speed up your workflow.
 
-   ![vue snippets](../../assets/vue-snippets.png)
-   ![snippets example](../../assets/snippets.png)
+   ![vue snippets](../../assets/vue-snippets.webp)
+   ![snippets example](../../assets/snippets.webp)
 
 ### Browser Developer Tools
 

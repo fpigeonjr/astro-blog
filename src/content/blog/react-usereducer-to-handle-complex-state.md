@@ -57,7 +57,7 @@ function User() {
 
 The mistake on the button onClick() method is that by using `setUser({admin: true})` this will overwrite the object and you'll lose the id, firstName, lastName, city, state, and email key/value pairs. It will only write the admin key/value pair. _Not what we want_.
 
-![devtools](../../assets/devtools.png)
+![devtools](../../assets/devtools.webp)
 
 ## The Fix
 
@@ -103,7 +103,7 @@ and return to the button to the initial setup.
 ...
 ```
 
-![fix](../../assets/fix.png)
+![fix](../../assets/fix.webp)
 
 ## Final Thoughts
 
