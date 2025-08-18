@@ -106,10 +106,18 @@ Videos in markdown `<video>` elements **must** be placed in `public/` because:
 **Example:**
 
 ```html
-<!-- Correct: Video in public/ folder -->
-<video autoplay loop muted playsinline>
+<!-- Correct: Video in public/ folder with accessibility attributes -->
+<video
+  autoplay
+  loop
+  muted
+  playsinline
+  aria-label="Demonstration of Windows 10 debloat script removing bloatware and unwanted applications"
+>
   <source src="/Win10DebloatRight.webm" type="video/webm" />
   <source src="/Win10DebloatRight.mp4" type="video/mp4" />
+  Your browser does not support the video tag. This video demonstrates the
+  Windows 10 debloat script removing bloatware applications.
 </video>
 ```
 

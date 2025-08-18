@@ -35,10 +35,10 @@ At the time of this writing _WSL2_ is only available on the _Insiders Build-Fast
 
 Next you'll want to run the [Windows10 Debloat Script](https://github.com/Sycnex/Windows10Debloater) which will (as the name implies)remove a bunch bloat and make Windows snappier.
 
-<video autoplay loop muted playsinline style="width: 100%; height: auto;">
+<video autoplay loop muted playsinline style="width: 100%; height: auto;" aria-label="Demonstration of Windows 10 debloat script removing bloatware and unwanted applications">
   <source src="/Win10DebloatRight.webm" type="video/webm">
   <source src="/Win10DebloatRight.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+  Your browser does not support the video tag. This video demonstrates the Windows 10 debloat script removing bloatware applications.
 </video>
 
 <p style="font-size: smaller">- gif created by <a href="https://azraelsdomain.tech/" > Paul Castillo</a></p>
