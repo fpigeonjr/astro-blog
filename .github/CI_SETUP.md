@@ -13,11 +13,13 @@ This repository includes a GitHub Actions workflow to ensure code quality and su
 - **Test**: Runs on Node.js 18 & 20
   - Install dependencies
   - Check code formatting
+  - Lint code
   - Run tests
 
 - **Code Quality**:
+  - Check formatting
+  - Lint code
   - Run tests with coverage
-  - Format checking
 
 ## Current Repository Protection
 
@@ -50,6 +52,12 @@ npm run format:check
 # Fix formatting
 npm run format
 
+# Lint code
+npm run lint
+
+# Fix lint issues
+npm run lint:fix
+
 # Test locally
 npm test
 ```
@@ -59,8 +67,9 @@ npm test
 ### Common CI Failures:
 
 1. **Formatting Issues**: Run `npm run format`
-2. **Test Failures**: Run `npm test` locally
-3. **Node Version Issues**: Ensure compatibility with Node 18+
+2. **Linting Issues**: Run `npm run lint:fix`
+3. **Test Failures**: Run `npm test` locally
+4. **Node Version Issues**: Ensure compatibility with Node 18+
 
 If Cloudflare Pages build fails, check the build logs in your Cloudflare dashboard.
 

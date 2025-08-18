@@ -19,7 +19,7 @@ if (heroImage) {
     const images = import.meta.glob("../assets/*", { eager: true });
     const imagePath = `../assets/${heroImage.split("/").pop()}`;
     heroImageSrc = images[imagePath]?.default;
-  } catch (e) {
+  } catch (_e) {
     console.warn("Could not load hero image:", heroImage);
   }
 }

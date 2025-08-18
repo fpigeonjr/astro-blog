@@ -13,7 +13,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18, 20]
+        node-version: [18, 20, 22]
 
     steps:
       - name: Checkout code
@@ -31,6 +31,9 @@ jobs:
       - name: Check code formatting
         run: npm run format:check
 
+      - name: Lint code
+        run: npm run lint
+
       - name: Run tests
         run: npm test -- --run
 
@@ -45,7 +48,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
           cache: "npm"
 
       - name: Install dependencies
@@ -53,6 +56,9 @@ jobs:
 
       - name: Check formatting
         run: npm run format:check
+
+      - name: Lint code
+        run: npm run lint
 
       - name: Run tests with coverage
         run: npm run test:coverage -- --run
