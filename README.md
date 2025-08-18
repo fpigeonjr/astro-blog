@@ -79,6 +79,48 @@ _Note: These dimensions match the blog-placeholder images included with the temp
 
 Images should be placed in `src/assets/` for optimization or `public/` for direct serving without processing.
 
+## 📁 Asset Management
+
+Understanding Astro's asset handling is crucial for proper file placement:
+
+### `src/assets/` - Processed Assets
+
+- Files are optimized, compressed, and get hashed filenames (e.g., `image.abc123.webp`)
+- Perfect for images imported in components or referenced in markdown
+- Astro automatically optimizes and serves these efficiently
+
+### `public/` - Static Assets
+
+- Files are served directly at root URL without processing
+- Required for files that need predictable URLs or can't be imported
+- Use for: videos, PDFs, downloadable files, favicons
+
+### Video Files
+
+Videos in markdown `<video>` elements **must** be placed in `public/` because:
+
+- Video elements need direct, unchanging URL paths
+- Markdown can't use Astro's import syntax
+- Reference with absolute paths: `<source src="/video.mp4">`
+
+**Example:**
+
+```html
+<!-- Correct: Video in public/ folder with accessibility attributes -->
+<video
+  autoplay
+  loop
+  muted
+  playsinline
+  aria-label="Demonstration of Windows 10 debloat script removing bloatware and unwanted applications"
+>
+  <source src="/Win10DebloatRight.webm" type="video/webm" />
+  <source src="/Win10DebloatRight.mp4" type="video/mp4" />
+  Your browser does not support the video tag. This video demonstrates the
+  Windows 10 debloat script removing bloatware applications.
+</video>
+```
+
 ## Credit
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
