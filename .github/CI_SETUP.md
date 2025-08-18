@@ -9,26 +9,29 @@ This repository includes a GitHub Actions workflow to ensure code quality and su
 **Triggers:** Push to `main` branch, Pull Requests to `main`
 
 **Jobs:**
+
 - **Test**: Runs on Node.js 18 & 20
   - Install dependencies
   - Check code formatting
   - Run tests
 
-- **Code Quality**: 
+- **Code Quality**:
   - Run tests with coverage
   - Format checking
 
 ## Current Repository Protection
 
 Your repository already has these protections configured:
+
 - ✅ Deletion protection
-- ✅ Non-fast-forward protection  
+- ✅ Non-fast-forward protection
 - ✅ Required status checks (Cloudflare Pages)
 - ✅ Strict branch policy
 
 ## Integration with Cloudflare Pages
 
 The CI pipeline focuses purely on code quality while Cloudflare Pages handles building and deployment:
+
 1. **CI checks** ensure code quality (tests, formatting)
 2. **Cloudflare Pages** handles building and deployment
 3. **Repository rulesets** enforce both checks before merge
@@ -47,7 +50,7 @@ npm run format:check
 # Fix formatting
 npm run format
 
-# Test locally 
+# Test locally
 npm test
 ```
 

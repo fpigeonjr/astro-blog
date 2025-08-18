@@ -377,11 +377,11 @@ import ThemeToggle from "./ThemeToggle.astro";
     }
 
     updateTheme();
-    
+
     // Update both theme toggles
     const desktopToggle = document.getElementById("theme-toggle");
     const mobileToggle = document.getElementById("mobile-theme-toggle");
-    
+
     if (desktopToggle) updateIcon(desktopToggle);
     if (mobileToggle) updateIcon(mobileToggle);
   }
@@ -413,12 +413,12 @@ import ThemeToggle from "./ThemeToggle.astro";
     // Handle theme toggles
     const desktopToggle = document.getElementById("theme-toggle");
     const mobileToggle = document.getElementById("mobile-theme-toggle");
-    
+
     if (desktopToggle) {
       updateIcon(desktopToggle);
       desktopToggle.addEventListener("click", toggleTheme);
     }
-    
+
     if (mobileToggle) {
       updateIcon(mobileToggle);
       mobileToggle.addEventListener("click", toggleTheme);
@@ -433,7 +433,7 @@ import ThemeToggle from "./ThemeToggle.astro";
         updateTheme();
         const desktopToggle = document.getElementById("theme-toggle");
         const mobileToggle = document.getElementById("mobile-theme-toggle");
-        
+
         if (desktopToggle) updateIcon(desktopToggle);
         if (mobileToggle) updateIcon(mobileToggle);
       }
