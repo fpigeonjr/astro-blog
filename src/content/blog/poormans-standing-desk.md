@@ -2,7 +2,7 @@
 title: "Poorman's Standing Desk"
 description: "My poorman's guide for builging a standing desk"
 pubDate: "Dec 17 2018"
-heroImage: "../../assets/standing-desk.webp"
+heroImage: "../../assets/standing-desk-hero.webp"
 ---
 
 ## Inspiration
@@ -21,7 +21,7 @@ So while we were at Walmart looking around, I took a look around to see if I cou
 
 ### Materials
 
-![end table from Walmart](../../assets/end-table.jpg)
+![end table from Walmart](../../assets/end-table.webp)
 
 - [ ] [end table(monitor stand), \$12](https://www.walmart.com/ip/Mainstays-Parsons-End-Table-Multiple-Colors/47827019)
 - [ ] shelf(keyboard and mouse), \$6
@@ -40,6 +40,6 @@ You will eventually get tired of standing so there are some bonus items you can 
 
 ## Conclusion
 
-![happy dev](../../assets/standing-desk.jpg)
+![happy dev](../../assets/standing-desk.webp)
 
 So far I am very happy with the results, glad I didn't have to spend a fortune, and also leaned into my hacker tendencies. We'll see if it holds up but if it doesn't, I can always build another one #onthecheap.

@@ -19,7 +19,7 @@ I am currently reading **"The One Thing: The Suprisingly Simple Truth Behind Ext
 
 This book is full of wisdom, productivity hacks, and lays out a plan to get extraordinary results written by the chairman of the board and cofounder of Keller Williams Realty, Inc. So this is one of the sources of inspiration for this post.
 
-![dominos](../../assets/dominos.jpg)
+![dominos](../../assets/dominos.webp)
 
 <figure>
 <blockquote>
@@ -58,7 +58,7 @@ Hit the gym three times a week and sleep 8 hours a day. I pack my gym bag the ni
 
 ## Personal Life
 
-![trails](../../assets/trails.jpg)
+![trails](../../assets/trails.webp)
 
 Plan a family outing and date night once a month.
 

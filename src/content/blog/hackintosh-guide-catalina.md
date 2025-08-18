@@ -39,7 +39,7 @@ Hard to believe this build was from January 2014 and is still running great.
 
 1. You will need to have a copy of Catalina from the App store.
 2. Format USB Drive to `MacOS Extended(Journaled)`. Set Scheme to `GUID Partition Map` and name it `USB`.
-   ![USB Creation](../../assets/make-usb.png)
+   ![USB Creation](../../assets/make-usb.webp)
 3. Open Terminal and run:
 
 ```sh
@@ -91,14 +91,14 @@ Click Restart…
 2. run the `clover_version_rev.pkg` that you downloaded.
 3. On the Destination Select tab, click on the option Change Install Location.
 4. Select the USB Flash Drive.
-   ![cloverusb](../../assets/cloverusb.png)
+   ![cloverusb](../../assets/cloverusb.webp)
 5. Now on the Installation Type Tab Click on the Customize option.
-   ![clover](../../assets/clover.png)
+   ![clover](../../assets/clover.webp)
    - defaults were ok in my build
 
 ### Copying Files to EFI partition on Hackintosh macOS Catalina USB Installer
 
-![efi](../../assets/efi.png)
+![efi](../../assets/efi.webp)
 
 Open up the EFI partition (location: /Volumes/EFI/), and navigate to "EFI", then to "CLOVER". Then, navigate to the "kexts" folder, then to "Other".
 

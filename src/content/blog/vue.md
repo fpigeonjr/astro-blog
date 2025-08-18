@@ -58,7 +58,7 @@ Bonus: It doesn't hurt that you have one of the best teacher's with Jeffrey Way.
 
 After completing the course I was so excited to learn more about Vue that I started reading a book named [Learning Vue.js 2][book] by Olga Filipova.
 
-![book](../../assets/book.png)
+![book](../../assets/book.webp)
 
 This book was listed as one the resources from the [Awesome Vue][awesome-vue] Github repo that has tons of Vue related resources.
 

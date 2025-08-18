@@ -23,7 +23,7 @@ I have heard that many of the most successful people in the world wake up early.
 
 Also waking up early requires discipline, and once you start the day with disciple it carries on with you the rest of the day.
 <a href="https://www.instagram.com/p/BraJBUphWeV/" target="_blank">
-<img src="../../assets/430.png" alt="430 club"/>
+<img src="../../assets/430.webp" alt="430 club"/>
 </a>
 
 > 💪there is even a club of early risers, the #430 club!
@@ -44,7 +44,7 @@ So yes _they are long 10 hour days_, but I get a day off every week. I love what
 
 ### 2. Habit Tracking
 
-![habit tracking](../../assets/habits.jpg)
+![habit tracking](../../assets/habits.webp)
 
 Right as I was getting started with the waking up early habit, I was also reading the book **Atomic Habits** by [James Clear](https://jamesclear.com/).
 
@@ -90,7 +90,7 @@ There are many health benefits of fasting like, better focus, discipline, increa
 
 ### 4. Minimalism
 
-![mac](../../assets/mac.jpg)
+![mac](../../assets/mac.webp)
 
 As a minimalist at heart, the holidays are always tough since we bring in so many things to our home. To keep things in balance, I try hard to either sell things or give them away if they no longer bring any value to my families lives.
 
@@ -102,7 +102,7 @@ It's not totally random people like on craigslist, at least you have a name and 
 
 ### 5. Health
 
-![apple watch](../../assets/watch.jpg)
+![apple watch](../../assets/watch.webp)
 
 Along with my new diet, I also wanted to exercise more so I can be a healthier, well-balanced person.
 
@@ -114,7 +114,7 @@ The idea behind the Activities App is to close your rings every day.
 
 ### 6. Minnesota Trip
 
-![paddling on the lakes](../../assets/lakes.jpg)
+![paddling on the lakes](../../assets/lakes.webp)
 
 This summer we got to visit my brother-in-law in Minnesota. It was a two day drive straight up I35. The boys are older now so it made for an easier trip.
 
@@ -124,7 +124,7 @@ We had fun on the lakes, biking, saw the Mall of the Americas, and eating ice cr
 
 ### 7. Raspberry Pis For Kids
 
-![raspberry pi](../../assets/carlos-pi.jpg)
+![raspberry pi](../../assets/carlos-pi.webp)
 
 As a web developer, I wanted to share my love of coding with my boys and I wanted to do it on the cheap.
 
@@ -136,7 +136,7 @@ My boys enjoy the visual way Scratch teaches programming concepts and then get t
 
 ### 8. Driving for Uber
 
-![tire](../../assets/tire.jpg)
+![tire](../../assets/tire.webp)
 
 In the Spring of 2018, I was looking to make some extra cash on the side and found a way to do it that was flexible enough for my schedule.
 

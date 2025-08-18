@@ -2,7 +2,7 @@
 title: "Habits to Be a Better Developer"
 description: "These are my habits to be a better developer and to improve my skills. Interviewed a senior developer and these are his top 7 habits to be a better developer."
 pubDate: "Jan 28 2019"
-heroImage: "../../assets/blog-bg.jpg"
+heroImage: "../../assets/blog-bg.webp"
 ---
 
 ## Intro
@@ -15,7 +15,7 @@ I've been doing quite a bit of reading lately and came across the **80/20 rule**
 
 A specific example in the book **"The One Thing"**, the author wanted to be a better guitar player, so he asked his guitar teacher, "If I can only practice 20 minutes a day, what is the one thing I should practice?" **He chose the minor blues scale.**
 
-![one thing](../../assets/oneThing.png)
+![one thing](../../assets/oneThing.webp)
 
 So it got me thinking what would be the equivalent for web development? I asked our most productive developer in our office and this is what he said.
 
@@ -23,25 +23,25 @@ So it got me thinking what would be the equivalent for web development? I asked 
 
 ### 1. Consistency
 
-![pencil and coffee](../../assets/consistant.jpg)
+![pencil and coffee](../../assets/consistant.webp)
 
 Consistency resonates with me a lot since reading **"Atomic Habits"** which is about making small habits to increase 1% every day to reach your goal. So being consistent could look like coding 10 minutes a day. Start easy but be consistent.
 
 ### 2. Create More
 
-![paint](../../assets/create.jpg)
+![paint](../../assets/create.webp)
 
 It is easy (_and default behavior_) to unwind and consume content on endless streams of data on the internet. Having a creator mindset helps in application of concepts and ideas. I love to watch coding tutorials but not applying what I've learned can lead to becoming rusty and losing what you have just learned. Countless mentors have always told me to always have a side project.
 
 ### 3. Passion
 
-![fire](../../assets/campfire.jpg)
+![fire](../../assets/campfire.webp)
 
 This is a hard one to describe but an important one. Finding a passion for coding can be different for everyone. Some things I find to keep my passion are keeping up with trends, reading blogs, listening to podcasts, and watching tutorials. This industry moves so fast. Trying out new libraries or frameworks can bring new life to your projects.
 
 ### 4. Release
 
-![high hat](../../assets/drums.jpg)
+![high hat](../../assets/drums.webp)
 
 After doing web development for years, it could lead to a path of burnout. Having a hobby outside of coding can bring help bring balance to your dev life. Hobbies that include things like music, exercise, and the arts can take your mind of the problems you're dealing with and can bring an escape.
 
@@ -49,7 +49,7 @@ After doing web development for years, it could lead to a path of burnout. Havin
 
 ### 5. Fearless Approach
 
-![bridge](../../assets/bridge.jpg)
+![bridge](../../assets/bridge.webp)
 
 I fall into the trap of overthinking all the time.
 
@@ -69,7 +69,7 @@ You have to just start. Even if its just psuedo-code. Start. You can always refa
 
 ### 6. Don't Give Up
 
-![climbing](../../assets/climber.jpg)
+![climbing](../../assets/climber.webp)
 
 Inevitably you will run into a challenge in your code. Sometimes when I get stuck, I like to start another task and then return to the original challenge after not thinking about it for a while. Sleep is another great resource for getting unstuck. Surprisingly, your brain continues to work on the problem at a much faster rate than your conscious mind. I am always surprised on how easy I find a solution after getting some rest the next day.
 
@@ -77,7 +77,7 @@ Inevitably you will run into a challenge in your code. Sometimes when I get stuc
 
 ### 7. Focus on Finishing
 
-![kanban board](../../assets/kanban.jpg)
+![kanban board](../../assets/kanban.webp)
 
 > Focus on finishing is a big one.
 

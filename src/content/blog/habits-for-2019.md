@@ -63,7 +63,7 @@ My kindle is on my nightstand so as I lay in bed it is right there _to remind me
 
 ### 3. Physical Health
 
-![Apple Watch](../../assets/watch.jpg)
+![Apple Watch](../../assets/watch.webp)
 
 I have invested in an Apple Watch and find that its **Activities app** is great!
 

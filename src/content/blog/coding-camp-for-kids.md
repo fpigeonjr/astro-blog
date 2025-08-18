@@ -2,12 +2,12 @@
 title: "DIY Coding Camp for Kids"
 description: "A DIY coding camp for kids using Raspberry Pi and Scratch"
 pubDate: "Feb 04 2019"
-heroImage: "../../assets/bg-new.jpg"
+heroImage: "../../assets/bg-new.webp"
 ---
 
 ## Intro
 
-![carlos on the pi](../../assets/carlos-pi.jpg)
+![carlos on the pi](../../assets/carlos-pi.webp)
 
 I was reflecting on the coding camp we put together for the boys last summer.
 
@@ -17,7 +17,7 @@ It was cool to find that my boys share a passion for creating, _just like their 
 
 ## Hardware
 
-![hw](../../assets/hw.jpg)
+![hw](../../assets/hw.webp)
 
 I needed cheap hardware since at this point I didn't know if this would just be a phase.
 
@@ -45,19 +45,19 @@ The os is over 4GB so they recommend a minimum of 8GB. However, [Amazon has 32GB
 
 1. The first step is to [download the os from the official raspberry website](https://www.raspberrypi.org/downloads/raspbian/).
 
-![os](../../assets/os.png)
+![os](../../assets/os.webp)
 
 2. Then you want to create the bootable os using [Etcher](https://www.balena.io/etcher/).
 
-![etcher](../../assets/etcher.png)
+![etcher](../../assets/etcher.webp)
 
 🔥Once its done, insert into your SD card into your rpi and fire it up!
 
-![bootup linux](../../assets/bootup.jpg)
+![bootup linux](../../assets/bootup.webp)
 
 ## Coding
 
-![scatch](../../assets/scratch-dragon.jpg)
+![scatch](../../assets/scratch-dragon.webp)
 
 With the hardware and software working, we now come to what really matters. Why did we put all this stuff together?
 
@@ -81,7 +81,7 @@ There is no better way to teach young children to code than [Scratch](https://sc
 - build a game
 - share your game with other Scratch coders
 
-![lynda](../../assets/scratch.png)
+![lynda](../../assets/scratch.webp)
 
 ## Conclusion
 

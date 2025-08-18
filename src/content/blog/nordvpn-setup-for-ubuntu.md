@@ -113,7 +113,7 @@ Now that you have NordVPN installed, let's test run thru the basics to get conne
 
    If you want to configure to a specific server, check out their [server list](https://nordvpn.com/servers/tools/).
 
-![server list](../../assets/server-list.png)
+![server list](../../assets/server-list.webp)
 
 1. In my example, server `us3565` was the server recommended for my location. To connect with this specific server run:
 
@@ -164,7 +164,7 @@ I have a fiber connection and without VPN on, I get around **350mbps up and down
 
 Make sure you select a custom server that has the wireguard option.
 
-![wireguard server](../../assets/wireguard.png)
+![wireguard server](../../assets/wireguard.webp)
 
 ### Killswitch
 
