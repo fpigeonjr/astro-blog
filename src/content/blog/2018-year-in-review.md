@@ -2,7 +2,7 @@
 title: "2018 Year In Review"
 description: "This is my review of 2018."
 pubDate: "Jan 07 2019"
-heroImage: "../../assets/blog-placeholder-5.jpg"
+heroImage: "../../assets/2018-fireworks.webp"
 ---
 
 ## 🎉 2018! What a Year It Has Been
@@ -124,7 +124,7 @@ We had fun on the lakes, biking, saw the Mall of the Americas, and eating ice cr
 
 ### 7. Raspberry Pis For Kids
 
-![raspberry pi](../../assets/pi.jpg)
+![raspberry pi](../../assets/carlos-pi.jpg)
 
 As a web developer, I wanted to share my love of coding with my boys and I wanted to do it on the cheap.
 
