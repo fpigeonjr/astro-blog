@@ -19,9 +19,9 @@ Features:
 
 ## 📋 Prerequisites
 
-- **Node.js** - v18.20.8, v20.3.0, or v22.0.0 or higher (v19 and v21 are not supported)
+- **Node.js** - v22.0.0 or higher (defined in `.nvmrc`)
 - **npm/pnpm/yarn** - Package manager
-- Use `nvm use` to automatically switch to the correct Node.js version (defined in `.nvmrc`)
+- Use `nvm use` to automatically switch to the correct Node.js version
 
 ## 🚀 Project Structure
 
