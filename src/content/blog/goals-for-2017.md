@@ -2,7 +2,7 @@
 title: "Goals for 2017"
 description: "My annual goals for 2017"
 pubDate: "Feb 25 2017"
-heroImage: "../../assets/blog-placeholder-4.jpg"
+heroImage: "../../assets/mountain-climber.webp"
 ---
 
 ## Everyone has goals

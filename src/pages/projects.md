@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "Projects"
 description: "These are some of the projects I have had the honor to work on."
 pubDate: "Aug 16 2025"
-heroImage: ../../assets/projects.jpg
+heroImage: ../assets/matrix.webp
 ---
 
 Here are some key projects I've worked on, ranging from Federal Government applications to client websites. Each project showcases different aspects

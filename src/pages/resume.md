@@ -3,7 +3,7 @@ layout: ../layouts/PageLayout.astro
 title: "Resume"
 description: "This is my resume and accomplishments."
 pubDate: "Aug 16 2025"
-heroImage: ../../assets/dev-setup.jpg
+heroImage: ../assets/sunset-lighthouse.webp
 ---
 
 ## Summary

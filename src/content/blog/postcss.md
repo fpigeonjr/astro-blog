@@ -2,7 +2,7 @@
 title: "PostCSS"
 description: "adventures in postcss land"
 pubDate: "Mar 03 2017"
-heroImage: "../../assets/blog-placeholder-3.jpg"
+heroImage: "../../assets/postcss.webp"
 ---
 
 ## Working with PostCSS

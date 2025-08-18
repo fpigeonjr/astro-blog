@@ -2,7 +2,7 @@
 title: "2017 Year in Review"
 description: "This is my review of 2017"
 pubDate: "Dec 15 2017"
-heroImage: "../../assets/2017-review.jpg"
+heroImage: "../../assets/campfire-fireworks.webp"
 ---
 
 ## Looking Back
