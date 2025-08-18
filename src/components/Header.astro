@@ -1,17 +1,57 @@
 ---
 import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
-import ThemeToggle from "./ThemeToggle.astro";
 ---
 
 <header>
   <nav>
     <h2><a href="/">{SITE_TITLE}</a></h2>
-    <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
+    <div class="mobile-controls">
+      <div class="mobile-theme-toggle">
+        <button
+          id="mobile-theme-toggle"
+          type="button"
+          aria-label="Toggle dark mode"
+          class="theme-toggle"
+        >
+          <svg
+            class="sun-icon"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg
+            class="moon-icon"
+            width="32"
+            height="32"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+      </div>
+      <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
     <div class="internal-links">
       <HeaderLink href="/">Blog</HeaderLink>
       <HeaderLink href="/about">About</HeaderLink>
@@ -20,7 +60,43 @@ import ThemeToggle from "./ThemeToggle.astro";
       <HeaderLink href="/uses">Uses</HeaderLink>
     </div>
     <div class="social-links">
-      <ThemeToggle />
+      <button
+        id="theme-toggle"
+        type="button"
+        aria-label="Toggle dark mode"
+        class="theme-toggle"
+      >
+        <svg
+          class="sun-icon"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <circle cx="12" cy="12" r="5"></circle>
+          <line x1="12" y1="1" x2="12" y2="3"></line>
+          <line x1="12" y1="21" x2="12" y2="23"></line>
+          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+          <line x1="1" y1="12" x2="3" y2="12"></line>
+          <line x1="21" y1="12" x2="23" y2="12"></line>
+          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+        </svg>
+        <svg
+          class="moon-icon"
+          width="32"
+          height="32"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+        >
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </button>
       <a href="https://x.com/fpigeonjr" target="_blank">
         <span class="sr-only">Follow Frank on X</span>
         <svg
@@ -107,6 +183,84 @@ import ThemeToggle from "./ThemeToggle.astro";
   .internal-links {
     line-height: 0;
   }
+  /* Mobile controls container */
+  .mobile-controls {
+    display: none;
+    align-items: center;
+    gap: 0.75rem;
+  }
+
+  .mobile-theme-toggle {
+    display: none;
+  }
+
+  .theme-toggle {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 0.25em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.2s ease;
+    color: var(--text-primary);
+  }
+
+  .theme-toggle:hover {
+    background-color: var(--border);
+  }
+
+  .theme-toggle:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+
+  .sun-icon,
+  .moon-icon {
+    transition: opacity 0.2s ease;
+  }
+
+  :root[data-theme="dark"] .sun-icon {
+    opacity: 0;
+    position: absolute;
+  }
+
+  :root[data-theme="dark"] .moon-icon {
+    opacity: 1;
+  }
+
+  :root[data-theme="light"] .sun-icon {
+    opacity: 1;
+  }
+
+  :root[data-theme="light"] .moon-icon {
+    opacity: 0;
+    position: absolute;
+  }
+
+  @media (prefers-color-scheme: light) {
+    :root:not([data-theme]) .sun-icon {
+      opacity: 1;
+    }
+
+    :root:not([data-theme]) .moon-icon {
+      opacity: 0;
+      position: absolute;
+    }
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme]) .sun-icon {
+      opacity: 0;
+      position: absolute;
+    }
+
+    :root:not([data-theme]) .moon-icon {
+      opacity: 1;
+    }
+  }
+
   /* Mobile menu toggle button */
   .mobile-menu-toggle {
     display: none;
@@ -142,6 +296,14 @@ import ThemeToggle from "./ThemeToggle.astro";
   @media (max-width: 720px) {
     header {
       padding: 0.75em 1em;
+    }
+
+    .mobile-controls {
+      display: flex;
+    }
+
+    .mobile-theme-toggle {
+      display: flex;
     }
 
     .mobile-menu-toggle {
@@ -195,7 +357,39 @@ import ThemeToggle from "./ThemeToggle.astro";
 </style>
 
 <script>
+  import { getThemePreference, updateTheme, isDark } from "../utils/theme.js";
+
+  function updateIcon(button) {
+    if (isDark()) {
+      button.setAttribute("aria-label", "Switch to light mode");
+    } else {
+      button.setAttribute("aria-label", "Switch to dark mode");
+    }
+  }
+
+  function toggleTheme() {
+    const isCurrentlyDark = isDark();
+    const newTheme = isCurrentlyDark ? "light" : "dark";
+
+    if (typeof localStorage !== "undefined") {
+      localStorage.setItem("theme", newTheme);
+    }
+
+    updateTheme();
+
+    // Update both theme toggles
+    const desktopToggle = document.getElementById("theme-toggle");
+    const mobileToggle = document.getElementById("mobile-theme-toggle");
+
+    if (desktopToggle) updateIcon(desktopToggle);
+    if (mobileToggle) updateIcon(mobileToggle);
+  }
+
+  // Update theme on page load
+  updateTheme();
+
   document.addEventListener("DOMContentLoaded", function () {
+    // Handle mobile menu toggle
     const mobileMenuToggle = document.querySelector(".mobile-menu-toggle");
     const internalLinks = document.querySelector(".internal-links");
 
@@ -214,5 +408,33 @@ import ThemeToggle from "./ThemeToggle.astro";
         });
       });
     }
+
+    // Handle theme toggles
+    const desktopToggle = document.getElementById("theme-toggle");
+    const mobileToggle = document.getElementById("mobile-theme-toggle");
+
+    if (desktopToggle) {
+      updateIcon(desktopToggle);
+      desktopToggle.addEventListener("click", toggleTheme);
+    }
+
+    if (mobileToggle) {
+      updateIcon(mobileToggle);
+      mobileToggle.addEventListener("click", toggleTheme);
+    }
   });
+
+  // Listen for system theme changes
+  window
+    .matchMedia("(prefers-color-scheme: dark)")
+    .addEventListener("change", () => {
+      if (!localStorage.getItem("theme")) {
+        updateTheme();
+        const desktopToggle = document.getElementById("theme-toggle");
+        const mobileToggle = document.getElementById("mobile-theme-toggle");
+
+        if (desktopToggle) updateIcon(desktopToggle);
+        if (mobileToggle) updateIcon(mobileToggle);
+      }
+    });
 </script>

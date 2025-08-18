@@ -17,6 +17,12 @@ Features:
 - ✅ RSS Feed support
 - ✅ Markdown & MDX support
 
+## 📋 Prerequisites
+
+- **Node.js** - v22.0.0 or higher (defined in `.nvmrc`)
+- **npm/pnpm/yarn** - Package manager
+- Use `nvm use` to automatically switch to the correct Node.js version
+
 ## 🚀 Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
