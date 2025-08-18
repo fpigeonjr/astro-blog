@@ -8,6 +8,36 @@ vi.mock('../src/utils/theme.js', async () => {
   return original;
 });
 
+// Shared test utilities
+function createThemeUtilities(isDark, updateTheme) {
+  function updateIcon(button) {
+    if (isDark()) {
+      button.setAttribute("aria-label", "Switch to light mode");
+    } else {
+      button.setAttribute("aria-label", "Switch to dark mode");
+    }
+  }
+
+  function toggleTheme() {
+    const isCurrentlyDark = isDark();
+    const newTheme = isCurrentlyDark ? "light" : "dark";
+
+    if (typeof localStorage !== "undefined") {
+      localStorage.setItem("theme", newTheme);
+    }
+
+    updateTheme();
+    
+    const desktopToggle = document.getElementById("theme-toggle");
+    const mobileToggle = document.getElementById("mobile-theme-toggle");
+    
+    if (desktopToggle) updateIcon(desktopToggle);
+    if (mobileToggle) updateIcon(mobileToggle);
+  }
+
+  return { updateIcon, toggleTheme };
+}
+
 describe('Theme Toggle Functionality', () => {
   let container;
   let user;
@@ -95,28 +125,7 @@ describe('Theme Toggle Functionality', () => {
 
     // Import and set up the theme toggle logic
     const { updateTheme, isDark } = await import('./theme-mock.js');
-    
-    function updateIcon(button) {
-      if (isDark()) {
-        button.setAttribute("aria-label", "Switch to light mode");
-      } else {
-        button.setAttribute("aria-label", "Switch to dark mode");
-      }
-    }
-
-    function toggleTheme() {
-      const isCurrentlyDark = isDark();
-      const newTheme = isCurrentlyDark ? "light" : "dark";
-
-      if (typeof localStorage !== "undefined") {
-        localStorage.setItem("theme", newTheme);
-      }
-
-      updateTheme();
-      
-      const toggle = document.getElementById("theme-toggle");
-      if (toggle) updateIcon(toggle);
-    }
+    const { updateIcon, toggleTheme } = createThemeUtilities(isDark, updateTheme);
 
     const toggle = container.querySelector('#theme-toggle');
     
@@ -153,28 +162,7 @@ describe('Theme Toggle Functionality', () => {
     `;
 
     const { updateTheme, isDark } = await import('./theme-mock.js');
-    
-    function updateIcon(button) {
-      if (isDark()) {
-        button.setAttribute("aria-label", "Switch to light mode");
-      } else {
-        button.setAttribute("aria-label", "Switch to dark mode");
-      }
-    }
-
-    function toggleTheme() {
-      const isCurrentlyDark = isDark();
-      const newTheme = isCurrentlyDark ? "light" : "dark";
-
-      localStorage.setItem("theme", newTheme);
-      updateTheme();
-      
-      const desktopToggle = document.getElementById("theme-toggle");
-      const mobileToggle = document.getElementById("mobile-theme-toggle");
-      
-      if (desktopToggle) updateIcon(desktopToggle);
-      if (mobileToggle) updateIcon(mobileToggle);
-    }
+    const { updateIcon, toggleTheme } = createThemeUtilities(isDark, updateTheme);
 
     const desktopToggle = container.querySelector('#theme-toggle');
     const mobileToggle = container.querySelector('#mobile-theme-toggle');
@@ -256,24 +244,7 @@ describe('Theme Toggle Functionality', () => {
     `;
 
     const { updateTheme, isDark } = await import('./theme-mock.js');
-    
-    function updateIcon(button) {
-      if (isDark()) {
-        button.setAttribute("aria-label", "Switch to light mode");
-      } else {
-        button.setAttribute("aria-label", "Switch to dark mode");
-      }
-    }
-
-    function toggleTheme() {
-      const isCurrentlyDark = isDark();
-      const newTheme = isCurrentlyDark ? "light" : "dark";
-      localStorage.setItem("theme", newTheme);
-      updateTheme();
-      
-      const toggle = document.getElementById("theme-toggle");
-      if (toggle) updateIcon(toggle);
-    }
+    const { updateIcon, toggleTheme } = createThemeUtilities(isDark, updateTheme);
 
     const toggle = container.querySelector('#theme-toggle');
     toggle.addEventListener('click', toggleTheme);
