@@ -2,7 +2,7 @@
 title: "NordVPN Setup for Ubuntu"
 description: "A guide to setting up NordVPN on Ubuntu 18.04"
 pubDate: "Aug 16 2019"
-heroImage: "../../assets/vpn-bg.jpg"
+heroImage: "../../assets/nord-vpn.webp"
 ---
 
 ## Motivation

@@ -2,7 +2,7 @@
 title: "useReducer to handle complex state"
 description: "Teach everyone to spread, they'll spread for a day. Teach everyone to useReducer and they'll spread for life."
 pubDate: "Sep 09 2021"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "../../assets/react-kittens.webp"
 ---
 
 > Teach everyone to spread, they'll spread for a day. Teach everyone to useReducer and they'll spread for life.

@@ -2,7 +2,7 @@
 title: "Hackintosh Build Guide for OSX Catalina"
 description: "Hackintosh Guide for Catalina on my 2014 custom built PC"
 pubDate: "Nov 11 2019"
-heroImage: "../../assets/mac.jpg"
+heroImage: "../../assets/laptop-on-table.webp"
 ---
 
 > tldr; Hackintosh Guide for Catalina on my 2014 custom built PC

@@ -2,7 +2,7 @@
 title: "Habits for 2019"
 description: "These are my habits-not goals-for 2019."
 pubDate: "Jan 14 2019"
-heroImage: "../../assets/blog-placeholder-5.jpg"
+heroImage: "../../assets/habit-tracker.webp"
 ---
 
 ## Intro
@@ -63,7 +63,7 @@ My kindle is on my nightstand so as I lay in bed it is right there _to remind me
 
 ### 3. Physical Health
 
-![Apple Watch](../../assets/watch.webp)
+![Apple Watch](../../assets/watch.jpg)
 
 I have invested in an Apple Watch and find that its **Activities app** is great!
 
@@ -95,7 +95,7 @@ It doesn't have to be expensive or difficult. _Simplicity is the key._
 
 ### 5. Financial
 
-![piggy bank](../../assets/piggy-bank.webp)
+![piggy bank](../../assets/piggy-bank.jpg)
 
 As a Dave Ramsey fan, we are on Baby Step 2 of **The Total Money Makeover**. We had a lot of life thrown at us in 2017 and we are working on paying down our debt, sticking to a monthly zero-based budget, and a cash envelope system to help us stay on track.
 
