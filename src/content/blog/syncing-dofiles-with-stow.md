@@ -1,11 +1,14 @@
 ---
-title: "Syncing Dotfiles across systems"
+title: "Syncing Dotfiles with stow"
 description: "Don't lose your config settings"
 pubDate: "Aug 20 2025"
 heroImage: "../../assets/retro-mac.webp"
 ---
 
-Was looking for a way to save my dotfiles especially since I wanted a way to sync them across machines. Also lowers the impact of a OS re-install.
+My mission was simple. Figure out a way to save and sync my dotfiles. Life happens and if I ever found myself in the situation with a busted arch setup or in need to reinstall my OS, getting back productive developer system would be a walk in the park. I also wanted a way to sync my settings across my two machines. 
+
+> My work laptop runs macOS and my personal macBook Air runs Omarchy.<br/>
+> [see more](/uses) 
 
 Came across some Youtube videos that were inspiring and all recommended GNU Store.
 
