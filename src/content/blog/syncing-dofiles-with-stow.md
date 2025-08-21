@@ -16,7 +16,7 @@ I came across some Youtube videos that were inspiring and all recommended GNU St
 
 This exactly what I was looking for to solve this problem.
 
-1. To start created a _dotfiles_ directory.
+1. To start let's create a _dotfiles_ directory in the home directory.
 
    ```bash
    mkdir ~/dotfiles
@@ -61,7 +61,7 @@ Let's add a real world example. Let's say we would like to add our `.gitconfig` 
    mkdir ~/dotfiles/git
    ```
 
-2. Then we move the current config into to the newly created dotfiles directory for the git config.
+2. Then we move the current config into the newly created dotfiles directory for the git config.
    ```bash
    mv ~/.gitconfig ~/dotfiles/git/
    ```
