@@ -45,6 +45,7 @@ I am using [ Ghostty ](https://ghostty.org/) for my terminal by [ mitchellh ](ht
 - [Bullet Journal](https://bulletjournal.com/) in a crappy notebook.
 - [Cloudflare for Families](https://blog.cloudflare.com/introducing-1-1-1-1-for-families/) to filter content and improve network speeds.
 - [Raspberry Pi][rpi] using [pi-hole][pihole] to filter ads on my network.
+- Check out my [dotfiles repo](https://github.com/fpigeonjr/dotfiles)
 
 [vscode]: https://code.visualstudio.com/
 [zed]: https://zed.dev/
