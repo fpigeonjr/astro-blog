@@ -71,7 +71,25 @@ Let's add a real world example. Let's say we would like to add our `.gitconfig` 
    stow git
    ```
 
+## Handling Conflicts
+
+If you ever get into a situation where after attempting to apply stow and you see an error, it is likely a conflict with an existing library or package already on the system. 
+
+First thing is to make a backup of the conflicting file. Let's continue with the `.gitconfig` example. After everything is safely backed up, we can then run stow again and all will be well.
+
+```bash
+# Make a backup of the conflicting file
+cp ~/.gitconfig ~/.gitconfig.backup
+
+# Remove conflicting file manually
+rm ~/.gitconfig
+
+# Then stow again
+stow git
+```
+
 Happy coding friends.
+
 
 ## Resources
 
