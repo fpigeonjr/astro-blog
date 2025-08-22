@@ -73,11 +73,36 @@ For optimal display and performance, use these recommended image dimensions:
 | ------------------------- | ---------- | ------------ | ---------------------------- |
 | Blog header images (hero) | 960×480px  | 2:1          | Individual blog post headers |
 | Blog list thumbnails      | 960×480px  | 2:1          | Blog listing page thumbnails |
+| OpenGraph/Social sharing  | 1200×630px | 1.91:1       | Social media previews        |
 | Page content width        | 960px max  | -            | Main content container       |
 
 _Note: These dimensions match the blog-placeholder images included with the template. The Astro Image component will automatically resize and optimize images as needed._
 
 Images should be placed in `src/assets/` for optimization or `public/` for direct serving without processing.
+
+## 🌐 OpenGraph & Social Sharing
+
+This blog automatically generates OpenGraph meta tags for better social media sharing:
+
+### How It Works
+- **Default image**: `sunset.webp` is used as the fallback OpenGraph image
+- **Blog posts**: Use their `heroImage` from frontmatter for social previews
+- **Pages**: Use their `heroImage` from frontmatter, or fall back to default
+
+### Adding OpenGraph Images
+1. **For blog posts**: Add `heroImage: "../../assets/your-image.webp"` to frontmatter
+2. **For pages**: Add `heroImage: ../assets/your-image.webp` to frontmatter
+3. **Change default**: Update `FallbackImage` import in `src/components/BaseHead.astro`
+
+### Testing Social Previews
+- **Facebook**: [Sharing Debugger](https://developers.facebook.com/tools/debug/)
+- **Twitter**: [Card Validator](https://cards-dev.twitter.com/validator)
+- **LinkedIn**: [Post Inspector](https://www.linkedin.com/post-inspector/)
+
+### Optimal Image Sizes
+- OpenGraph images work best at **1200×630px** (1.91:1 ratio)
+- Minimum size: 600×315px
+- Maximum file size: Keep under 1MB for best performance
 
 ## 📁 Asset Management
 
