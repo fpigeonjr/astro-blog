@@ -85,21 +85,25 @@ Images should be placed in `src/assets/` for optimization or `public/` for direc
 This blog automatically generates OpenGraph meta tags for better social media sharing:
 
 ### How It Works
+
 - **Default image**: `sunset.webp` is used as the fallback OpenGraph image
 - **Blog posts**: Use their `heroImage` from frontmatter for social previews
 - **Pages**: Use their `heroImage` from frontmatter, or fall back to default
 
 ### Adding OpenGraph Images
+
 1. **For blog posts**: Add `heroImage: "../../assets/your-image.webp"` to frontmatter
 2. **For pages**: Add `heroImage: ../assets/your-image.webp` to frontmatter
 3. **Change default**: Update `FallbackImage` import in `src/components/BaseHead.astro`
 
 ### Testing Social Previews
+
 - **Facebook**: [Sharing Debugger](https://developers.facebook.com/tools/debug/)
 - **Twitter**: [Card Validator](https://cards-dev.twitter.com/validator)
 - **LinkedIn**: [Post Inspector](https://www.linkedin.com/post-inspector/)
 
 ### Optimal Image Sizes
+
 - OpenGraph images work best at **1200×630px** (1.91:1 ratio)
 - Minimum size: 600×315px
 - Maximum file size: Keep under 1MB for best performance
